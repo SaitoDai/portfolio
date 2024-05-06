@@ -1,0 +1,55 @@
+.navbar a {
+  text-decoration: none;
+  color :rgb(98, 202, 159);
+}
+
+.nav a:hover {
+  color :rgb(126, 255, 201);
+  cursor : pointer;
+}
+
+a {
+  color :rgb(98, 202, 159);
+}
+
+a:hover {
+  color :rgb(126, 255, 201);
+}
+
+img{
+  max-width: 80%;
+  max-height: auto;
+}
+
+a img:hover{
+  opacity: 0.8;
+  transition: 0.1s;
+}
+
+.profile-img{
+  max-width: 10%;
+  max-height: auto;
+  border-radius: 50%;
+}
+
+video{
+  max-width: 50%;
+  max-height: auto;
+}
+
+.edit-img{
+  max-width: 10%;
+  max-height: auto;
+}
+
+.edit-caption{
+  resize: none;
+  width: 80%;
+  white-space: pre-wrap;
+}
+
+.edit-description{
+  resize: none;
+  width: 80%;
+  white-space: pre-wrap;
+}
