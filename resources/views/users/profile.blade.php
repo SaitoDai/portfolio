@@ -7,7 +7,7 @@
 @section('content')
 <div class="mt-5 mb-5 d-flex align-items-center flex-column"> 
   <img class="d-block profile-img" src="{{ asset('storage\images\profile.jpg') }}">
-  <div class="ms-5 mt-5">
+  <div class="profile-text">
     齋藤大<br>
     1990年10月13日
     栃木県宇都宮市生まれ<br>

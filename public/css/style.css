@@ -35,9 +35,20 @@ a img:hover{
 }
 
 .profile-img{
-  max-width: 10%;
+  min-width: 10%;
   max-height: auto;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 638px) {
+  .profile-text{
+    margin: 3rem;
+  }
+}
+@media screen and (min-width: 638px) {
+  .profile-text{
+    margin: 5rem 0px 0px 5rem;
+  }
 }
 
 video{
