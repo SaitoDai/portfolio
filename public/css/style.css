@@ -16,6 +16,14 @@ a:hover {
   color :rgb(126, 255, 201);
 }
 
+
+@media screen and (max-width: 767px) {
+  header{
+    font-size:18px;
+  }
+}
+
+
 img{
   max-width: 80%;
   max-height: auto;
@@ -52,4 +60,9 @@ video{
   resize: none;
   width: 80%;
   white-space: pre-wrap;
+}
+
+
+.mw-80{
+  max-width: 80%;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html lang="ja">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     @yield('title')
     <meta name="description" content="ポートフォリオサイト">
@@ -11,12 +12,12 @@
     <header class="navbar bg-body-tertiary">
       <div class="container">
         <div class="navbar row w-100 align-items-center">
-          <a class="col-4 display-6" href='{{ route('items.index') }}'>Portfolio</a>
-          <a class="col-7" href='{{ route('users.profile') }}'>Profile</a>
+          <a class="col-sm-4 col-xs-4 display-6" href='{{ route('items.index') }}'>Portfolio</a>
+          <a class="col-sm-7 col-xs-4" href='{{ route('users.profile') }}'>Profile</a>
           @if(Auth::id() == null)
-            <a class="col-1" href='{{ route('users.getLogin') }}'>login</a>
+            <a class="col-sm-1 col-xs-4" href='{{ route('users.getLogin') }}'>login</a>
           @else
-            <a class="col-1" href='{{ route('users.logout') }}'>logout</a>
+            <a class="col-sm-1 col-xs-4" href='{{ route('users.logout') }}'>logout</a>
           @endif
         </div>
       <div>

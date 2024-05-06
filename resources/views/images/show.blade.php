@@ -11,11 +11,13 @@
 <div class="d-flex justify-content-center mb-5">
     <img class="mt-5" src="{{ asset($image->path) }}" />
 </div>
-<div class="d-flex flex-column mb-5">
-  <p class="display-6 mx-auto">{{ $image->caption }}</p>
-  <div class="mx-auto">{{ $image->description }}</div>
-</div>
-<div class="d-flex justify-content-center mb-5">
-  <a href="{{ route('items.index') }}">TOP</a>
+<div class="mw-80 mx-auto d-flex justify-content-center flex-column">
+  <div class="d-flex mb-5 flex-column">
+    <p class="display-6 mx-auto">{{ $image->caption }}</p>
+    <div class="mx-auto">{{ $image->description }}</div>
+  </div>
+  <div class="d-flex justify-content-center mb-5">
+    <a href="{{ route('items.index') }}">TOP</a>
+  </div>
 </div>
 @endsection
