@@ -8,7 +8,7 @@
     </div>
   </div>
 @endif
-<div class="d-flex justify-content-center mb-5">
+<div class="d-flex text-center mb-5">
     <img class="mt-5" src="{{ asset($image->path) }}" />
 </div>
 <div class="d-flex flex-column mb-5">

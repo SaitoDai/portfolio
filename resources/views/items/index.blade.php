@@ -17,7 +17,7 @@
          <div class="row align-items-baseline">
             @foreach($images as $image)
                @if($image->category->id == 1)
-                  <a class="col-3 mx-auto" href="{{ route('images.show', $image) }}">
+                  <a class="col-4 text-center" href="{{ route('images.show', $image) }}">
                      <img class="d-inline-block" src="{{ asset($image->path) }}" />
                   </a>
                @endif
@@ -29,7 +29,7 @@
          <div class="row align-items-baseline">
             @foreach($images as $image)
                @if($image->category->id == 2)
-                  <a class="col-3 mx-auto" href="{{ route('images.show', $image) }}">
+                  <a class="col-4 text-center" href="{{ route('images.show', $image) }}">
                      <img class="d-inline-block" src="{{ asset($image->path) }}" />
                   </a>
                @endif
@@ -47,7 +47,7 @@
          <div class="row align-items-baseline">
             @foreach($images as $image)
                @if($image->category->id == 4)
-                  <a class="col-3 mx-auto" href="{{ route('images.show', $image) }}">
+                  <a class="col-4 text-center mb-3" href="{{ route('images.show', $image) }}">
                      <img class="d-inline-block" src="{{ asset($image->path) }}" />
                   </a>
                @endif
@@ -59,7 +59,7 @@
          <div class="row align-items-baseline">
             @foreach($images as $image)
                @if($image->category->id == 5)
-                  <a class="col-3 mx-auto" href="{{ route('images.show', $image) }}">
+                  <a class="col-4 text-center" href="{{ route('images.show', $image) }}">
                      <img class="d-inline-block" src="{{ asset($image->path) }}" />
                   </a>
                @endif
@@ -71,7 +71,7 @@
          <div class="row align-items-baseline">
             @foreach($images as $image)
                @if($image->category->id == 6)
-                  <a class="col-3 mx-auto" href="{{ route('images.show', $image) }}">
+                  <a class="col-6 text-center" href="{{ route('images.show', $image) }}">
                      <img class="d-inline-block" src="{{ asset($image->path) }}" />
                   </a>
                @endif
