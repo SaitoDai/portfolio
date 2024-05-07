@@ -56,6 +56,11 @@ video{
   max-height: auto;
 }
 
+.show-img{
+  max-height: 100vh;
+  width: auto;
+}
+
 .edit-img{
   max-width: 10%;
   max-height: auto;

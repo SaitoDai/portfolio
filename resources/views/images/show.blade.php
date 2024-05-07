@@ -9,7 +9,7 @@
   </div>
 @endif
 <div class="d-flex justify-content-center mb-5">
-    <img class="mt-5" src="{{ asset($image->path) }}" />
+    <img class="mt-5 show-img" src="{{ asset($image->path) }}" />
 </div>
 <div class="mw-80 mx-auto d-flex justify-content-center flex-column">
   <div class="d-flex mb-5 flex-column">
