@@ -9,6 +9,7 @@
   @method('patch')
   <div class="d-flex justify-content-center flex-column mb-5">
     <input class="mb-2 form-control mx-auto edit-caption" type="text" name="caption" value="{{ $image->caption }}"/>
+    <input class="mb-2 form-control mx-auto edit-caption" type="text" name="detail" value="{{ $image->detail }}"/>
     <textarea class="form-control mx-auto edit-description" name="description" rows="10">{{ $image->description }}</textarea>
   </div>
   <div class="d-flex">

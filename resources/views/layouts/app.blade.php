@@ -11,9 +11,9 @@
   <body>
     <header class="navbar bg-body-tertiary">
       <div class="container">
-        <div class="navbar row w-100 align-items-center">
-          <a class="col-sm-4 col-xs-4 display-6" href='{{ route('items.index') }}'>Portfolio</a>
-          <a class="col-sm-7 col-xs-4" href='{{ route('users.profile') }}'>Profile</a>
+        <div class="navbar w-100 d-flex item-aligns-center">
+          <a class="col-sm-6 col-xs-6 display-6" href='{{ route('items.index') }}'>Portfolio</a>
+          <a class="col-sm-6 col-xs-6 text-end" href='{{ route('users.profile') }}'>Profile</a>
         </div>
       <div>
     </header>

@@ -13,7 +13,8 @@
 </div>
 <div class="mw-80 mx-auto d-flex justify-content-center flex-column">
   <div class="d-flex mb-5 flex-column">
-    <p class="display-6 text-center mx-auto">{{ $image->caption }}</p>
+    <p class="display-6 mx-auto">{{ $image->caption }}</p>
+    <p class="mx-auto">{{ $image->detail }}</p>
     <div class="mx-auto">{{ $image->description }}</div>
   </div>
   <div class="d-flex justify-content-center mb-5">

@@ -72,6 +72,7 @@ class ItemController extends Controller
     public function update(Request $request, Image $image){
         $image->description = $request->input('description');
         $image->caption = $request->input('caption');
+        $image->detail = $request->input('detail');
         $image->update();
         return redirect()->route('images.show', $image);
     }
