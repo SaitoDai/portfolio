@@ -14,11 +14,6 @@
         <div class="navbar row w-100 align-items-center">
           <a class="col-sm-4 col-xs-4 display-6" href='{{ route('items.index') }}'>Portfolio</a>
           <a class="col-sm-7 col-xs-4" href='{{ route('users.profile') }}'>Profile</a>
-          @if(Auth::id() == null)
-            <a class="col-sm-1 col-xs-4" href='{{ route('users.getLogin') }}'>login</a>
-          @else
-            <a class="col-sm-1 col-xs-4" href='{{ route('users.logout') }}'>logout</a>
-          @endif
         </div>
       <div>
     </header>
@@ -26,6 +21,7 @@
       @yield('content')
     </main>
     <footer>
+      <p class="text-center">&copy;齋藤大</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>

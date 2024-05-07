@@ -15,6 +15,11 @@
     <div class="d-flex">
       <button class="btn btn-success ms-auto" value="submit">送信</button>
     </div>
+    @if(!empty(Auth::id()))
+      <div class="d-flex mt-5">
+        <a class="mx-auto col-sm-1 col-xs-4" href='{{ route('users.logout') }}'>logout</a>
+      </div>
+    @endif
   </form>
 </div>
 
